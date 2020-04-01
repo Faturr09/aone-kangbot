@@ -622,6 +622,8 @@ SLAP_TEMPLATES_ID = [
     "Melemparkan {item} kepada {victim}.",
     "Menampar {victim} menggunakan {item}.",
     "Membuang {victim} Ke udara.",
+    "Menghapus {victim} Dari Daftar Teman.",
+    "Melemparkan {item} {where} {victim}.",
     "Mengehack Seluruh akun {victim}"
 ]
 
