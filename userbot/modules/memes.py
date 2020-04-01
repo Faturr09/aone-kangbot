@@ -808,7 +808,7 @@ async def slap(replied_user, event):
        where = choice(WHERE_EN)
        
     caption = "..." + temp.format(
-        victim=slapped, item=item, hits=hit, throws=throw, where=where)
+        victim=slapped, item=item, hits=hit, throws=throw, where=where, anime=anime )
 
     return caption
 
