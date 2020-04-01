@@ -62,6 +62,6 @@ def zipdir(path, ziph):
 
 CMD_HELP.update({
         "compress":
-        ".compress [optional: <reply/tag/chat id/invite link>]\
-            \nUsage: Gets info of a chat. Some info might be limited due to missing permissions."
+        ".compress [optional: <reply to file >]\
+            \nUsage: make files to zip."
 })
