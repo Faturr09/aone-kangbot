@@ -8,6 +8,7 @@ from userbot.events import register
 import time
 import os
 from userbot import TEMP_DOWNLOAD_DIRECTORY ,bot
+from userbot import CMD_HELP
 # from uniborg.util import admin_cmd, humanbytes, progress, time_formatter
 from userbot.util import admin_cmd, humanbytes, progress, time_formatter
 
@@ -58,3 +59,9 @@ def zipdir(path, ziph):
             ziph.write(os.path.join(root, file))
             os.remove(os.path.join(root, file))
 
+
+CMD_HELP.update({
+        "compress":
+        ".compress [optional: <reply/tag/chat id/invite link>]\
+            \nUsage: Gets info of a chat. Some info might be limited due to missing permissions."
+})
