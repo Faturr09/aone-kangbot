@@ -625,6 +625,7 @@ SLAP_TEMPLATES_ID = [
     "Menghapus {victim} Dari Daftar Teman.",
     "Melemparkan {item} {where} {victim}.",
     "Meletakan {item} {where} {victim}.",
+    "Menyerang {victim} menggunakan {anime} {where}.",
     "Mengehack Seluruh akun {victim}"
 ]
 
@@ -688,6 +689,14 @@ HIT_ID = [
     "Memukul",
     "melemparkan",
     "Memukuli",
+]
+
+#Penambahan Baru  Menunggu @azrim untuk membuat list 
+
+ANIME_ID = [
+       "Rasengan",
+       "Chidori",
+       "Edo Tensei",        
 ]
 
 WHERE_ID = ["di pipi", "di kepala", "di bokong", "di badan"]
@@ -790,13 +799,14 @@ async def slap(replied_user, event):
        hit = choice(HIT_ID)
        throw = choice(THROW_ID)
        where = choice(WHERE_ID)
+       anime = choice(ANIME_ID)
     else:
        temp = choice(SLAP_TEMPLATES_EN)
        item = choice(ITEMS_EN)
        hit = choice(HIT_EN)
        throw = choice(THROW_EN)
        where = choice(WHERE_EN)
-
+       
     caption = "..." + temp.format(
         victim=slapped, item=item, hits=hit, throws=throw, where=where)
 
