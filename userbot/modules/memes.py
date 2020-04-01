@@ -664,6 +664,15 @@ ITEMS_ID = [
     "Matahari",
     "Meteor",
     "Berkas Kantor",
+    "Beton panas",
+    "Cermin",
+    "Batu Giok",
+    "Botol",
+    "Nezuko",
+    "Kaset Pita",
+    "Tiang Jemuran",
+    "Pisau Lipat",
+    "Bongkahan Es ",
     "Asteroid",
 ]
 
